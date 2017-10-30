@@ -187,9 +187,29 @@ header {
   line-height: 1.5;
 }
 
+.button-download  {
+  background: #18bc9c;
+  color: #fff;
+  border-radius: 10px;
+  border-style: solid;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  height: 55px;
+  width: 100px;
+  box-sizing: content-box;
+  text-align: center;
+
+}
+
+.button-download :hover {
+  cursor: pointer;
+  background: #fff:
+}
+
 /* Contact me Section */
 .contact {
-  outline: 1px solid blue;
+  /*outline: 1px solid blue;*/
   background: #fff;
 
   display: block;
@@ -263,7 +283,7 @@ button:hover {
 
 /* Footer Section */
    footer {
-   outline: 1px solid blue;
+   /*outline: 1px solid blue;*/
    background: #2c3e50;
    color: #fff;
    display: block;
@@ -275,22 +295,43 @@ button:hover {
 
   /* Titles-footer Section */
  .titles-footer {
-   outline: 1px solid red;
+   /*outline: 1px solid red;*/
    text-align: center;
  }
 
- .location , .social-icons, .about-freelancer {
+ .location , .social-web , .about-freelancer {
    display: inline-block;
-   width: 25%;
+   width: 20%;
    margin-left: 5px;
    margin-right: 5px;
    vertical-align: top;
    box-sizing: border-box;
+
  }
 
- .social-icons {
+ .social-web {
    padding-left: -20px;
  }
+
+.social-icons {
+  width: 20%
+  margin: 0;
+  padding: 0;
+  position: absolute;
+
+}
+
+.social-icons ul li{
+  list-style: none;
+  float: left;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.social-icons i:hover {
+  cursor: pointer;
+  color: #18bc9c;
+}
 
  footer h3 {
    font-family: 'Montserrat', sans-serif;
