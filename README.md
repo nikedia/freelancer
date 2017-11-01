@@ -34,7 +34,7 @@ a lograr:
 * La paleta de colores usadas en el sitio original son: `#2c3e50`, `#18bc9c`,
   `#212529`.
 
-* Los conocimientos técnicos principales empleados fueron como los íconos, el formulario (`form`, `input`, `button`), los pseudoelementos (`:after`, `:before`).
+* Los principales conocimientos técnicos empleados fueron como los íconos, el formulario (`form`, `input`, `button`), los pseudoelementos (`:after`, `:before`).
 
 ## Herramientas:
 
