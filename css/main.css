@@ -20,6 +20,7 @@ body {
     text-transform: uppercase;
 }
 
+/***to do the star icon details of the main titles sections***/
 .star-icon::before {
     content: '';
     width: 10%;
@@ -55,7 +56,15 @@ header {
     left: 0;
     z-index: 3333;
     margin: 0 auto;
+    /*** To do the efect increase-reduce nav***/
+    transition: all 2s ease-in-out;
 }
+    /*** To do the efect increase-reduce nav***/
+header:hover {
+    height: 120px;
+    transform: scale(1.05);
+}
+
 
 .left-nav {
     /*outline: 1px solid white;*/
@@ -151,7 +160,7 @@ header {
 }
 
 
-/* Grid Portfolio Section */
+/* Portfolio Section */
 
 .portfolio {
     /*outline: 1px solid blue;*/
@@ -188,13 +197,24 @@ header {
 
 .portfolio img {
     width: 30%;
-    padding: 10px;
+    margin: 10px;
+    /* background: transparent; */
+    background: #fff;
+    box-sizing: border-box;
+    z-index: 1;
+    
+    /* -webkit-transition:all .6s ease; */
 }
 
 .portfolio img:hover {
     cursor: pointer;
+    /* transition: .5s; */
+    box-sizing: border-box;
+    background: #18bc9c; 
+    /*** To do the efect***/
+    opacity: .5;
+    transition: background-color .5s ease-in-out;
 }
-
 
 /* About Section */
 
@@ -380,7 +400,7 @@ footer {
 .location,
 .social-web,
 .about-freelancer {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: inline-block;
     width: 25%;
     margin-left: 5px;
@@ -409,7 +429,7 @@ footer {
 }
 
 .social-icons ul li {
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
 
     list-style: none;
     display: inline-block;
